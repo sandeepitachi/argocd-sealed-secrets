@@ -1,1 +1,1 @@
-# vcluster-argocd
+# argocd-sealed-secrets
