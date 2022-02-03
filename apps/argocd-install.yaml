@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: apps
+  name: argocd
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: base
-    repoURL: https://github.com/sandeepitachi/argocd-poc-automation.git
+    repoURL: https://github.com/sandeepitachi/argocd-sealed-secrets.git
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
