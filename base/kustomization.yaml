@@ -7,3 +7,6 @@ resources:
   - github.com/argoproj/argo-cd/manifests/crds?ref=v2.2.2
   - github.com/argoproj/argo-cd/manifests/base?ref=v2.2.2
   - github.com/argoproj/argo-cd/manifests/cluster-rbac/?ref=v2.2.2
+
+
+namespace: argocd
